@@ -111,7 +111,7 @@ a:active {
 .button:hover {
   color: var(--button-hover-color);
   text-decoration: var(--button-hover-text-decoration);
-  background: var(--button-hover-background);
+  background-color: var(--button-hover-background);
   transition-duration: var(--transition-duration);
   transition-property: color, background-color;
 }
@@ -363,12 +363,9 @@ ul.row {
   vertical-align: bottom;
 }
 
-.card-work .card-image {
-  transition: var(--transition-duration) var(--transition-cubic-bezier);
-}
-
 .card-work:hover .card-image {
   transform: scale(1.2);
+  transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work .card-inner {
